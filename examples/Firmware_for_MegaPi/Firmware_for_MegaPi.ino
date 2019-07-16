@@ -1383,7 +1383,7 @@ void runModule(uint8_t device)
       if(port == 0)
       {
         uint8_t slot = readBuffer(7);
-        int16_t speed_value = readShort(8);
+        int16_t speed_value = readShort(9);
         speed_value = -speed_value;
 
         if(slot == SLOT_1)
